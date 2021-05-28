@@ -1,0 +1,55 @@
+﻿
+@model Employee;
+
+@{
+    // permet d'inscrire cette vue a l"utilisation de Layout
+    //  Layout = "~/Views/Shared/_EmployeeLayout.cshtml";
+    ViewBag.PageTitle = "Employee Details";
+    string nomImage = ViewBag.employeeModel.Photopath;
+}
+@{ if (ViewBag.employeeModel != null)
+    {
+        <div class="row justify-content-center m-3" id="emp">
+            <div class="col-sm8">
+                <div class=" card">
+                    <div class="card-header">
+                        <h1> @ViewBag.employeeModel.Name</h1>
+                    </div>
+                    <div class=" card-body text-center">
+                        <img class=" card-img-top rounded-circle" src="~/images/@nomImage"
+                             alt="Logo HTML w3" style="width:30%; height:30%" />
+
+                        <h4> Employee ID : @ViewBag.employeeModel.Id </h4>
+                        <h4> Email : @ViewBag.employeeModel.Email </h4>
+                        <h4> Department : @ViewBag.employeeModel.Department </h4>
+                    </div>
+                    <div>
+                        <div class="card-footer text-center">
+
+                            <a asp-controller="home" asp-action="allemployeeview" class="btn btn-primary m-1">
+                                Back
+                            </a>
+                            
+                            <a asp-controller="home" asp-action="EmployeeEditView" asp-route-id="@ViewBag.employeeModel.Id" class="btn btn-primary m-1 ">
+                                Edit
+                            </a>
+
+                            <a href="#" class="btn btn-danger m-1">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }
+}
+
+
+
+<!--Ajout d'une section nommee Script -->
+@section Script
+{
+    <script src="~/js/EmployeeCostumScript.js"></script>
+}
+
+
