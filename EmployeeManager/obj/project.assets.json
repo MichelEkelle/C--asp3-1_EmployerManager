@@ -6350,11 +6350,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Michel Ekelle\\Documents\\MesProjetCs\\C#_EmployeeManager\\EmployeeManager\\EmployeeManager.csproj",
+      "projectUniqueName": "C:\\Users\\Michel Ekelle\\Documents\\MesProjetCs\\Cs-asp3-1_EmployerManager\\EmployeeManager\\EmployeeManager.csproj",
       "projectName": "EmployeeManager",
-      "projectPath": "C:\\Users\\Michel Ekelle\\Documents\\MesProjetCs\\C#_EmployeeManager\\EmployeeManager\\EmployeeManager.csproj",
+      "projectPath": "C:\\Users\\Michel Ekelle\\Documents\\MesProjetCs\\Cs-asp3-1_EmployerManager\\EmployeeManager\\EmployeeManager.csproj",
       "packagesPath": "C:\\Users\\Michel Ekelle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Michel Ekelle\\Documents\\MesProjetCs\\C#_EmployeeManager\\EmployeeManager\\obj\\",
+      "outputPath": "C:\\Users\\Michel Ekelle\\Documents\\MesProjetCs\\Cs-asp3-1_EmployerManager\\EmployeeManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -6434,7 +6434,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

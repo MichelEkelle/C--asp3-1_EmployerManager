@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QuuI/KnT+GVWaX+OHjjXE9x1qQNNc6ONP6UJ+c7+8YmW7hjQQ985JQAGFxb2JxNkKmYQ8W7AfNWi1xQyzRjngA==",
+  "dgSpecHash": "OccO2ekjvmU0hpGhRsQiNQp+Yjw5DmqhZMCzZURsfuK5hlp70N0XQdKIrhXxuF34RD4QSKxqA2zkl45YlHU9Pg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Michel Ekelle\\Documents\\MesProjetCs\\C#_EmployeeManager\\EmployeeManager\\EmployeeManager.csproj",
+  "projectFilePath": "C:\\Users\\Michel Ekelle\\Documents\\MesProjetCs\\Cs-asp3-1_EmployerManager\\EmployeeManager\\EmployeeManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Michel Ekelle\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Michel Ekelle\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
